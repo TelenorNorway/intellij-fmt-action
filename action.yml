@@ -1,0 +1,10 @@
+name: setup-intellij
+description: Installs IntelliJ IDEA Community Edition on your path
+inputs:
+  version:
+    description: The version to install of IntelliJ IDEA Community Edition
+    required: false
+    default: "2023.1.3"
+runs:
+  using: node16
+  main: dist/main.js
